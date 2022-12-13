@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding-left:100px;
+    padding-right: 100px;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float:left
+}
+.right{
+    float: right;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.mid-content{
+    max-width: 1300px;
+    margin: auto;
+}
+/* r */
+.header-section{
+    height: 80px;
+
+}
+.header-logo a img{
+ height: 70px;
+}
+
+.header-menu ul li{
+display: inline-block;
+padding: 20px;
+}
+.header-menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.687);
+    
+}
+.banner{
+    background-image:url(./kobu-agency-IWLR561-Yb-MY-unsplash.jpg);
+    background-repeat: no-repeat;
+    padding: 150px 0;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+   
+}
+
+.banner h4{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.banner h1{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.banner ul{
+       text-align: center;
+       padding-top: 20px;
+}
+.banner ul li{
+    display: inline-block;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    
+ 
+}
+.banner ul li:hover{
+    background-color: #d8bb1a;
+    border: none;
+   
+}
+.banner ul li a{
+    color: rgb(169, 169, 169);
+    padding: 20px;
+}
+.banner ul li a:hover{
+    color: white;
+}
+.about-heading h1{
+   word-spacing: 10px;
+   letter-spacing: 2px;
+}
+.pricing-table{
+    background-color: #ffffff;
+    border: 1px solid white;
+    width: 320px;
+    position: relative;
+    left: 80px;
+    padding: 35px;
+    
+} 
+.pricing-heading{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.397);
+ 
+    padding: 20px;
+}
+.pricing-heading:hover{
+    background-color: #f0962f;
+}
+
+.pricing-heading h4{
+height: 60px;
+width: 250px;
+font-size: 20px;
+text-align: left;
+position: relative;
+right: 10px;
+ }
+.pricing-heading h2{
+    font-size: 40px;
+    background-color: rgba(128, 128, 128, 0.397);
+    width: 250px;
+}
+.pricing-heading span{
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    bottom: 30px;
+    overflow: hidden;
+    
+    
+}
+.pricing-heading h6{
+    font-size: 20px;
+}
+.pricing-item ul li span{
+    font-size: 30px;
+    color: coral;
+    padding-right: 24px;
+}
+.pricing-item ul li { 
+    font-size: 20px;
+    padding: 20px;
+    list-style-type: none;
+}
+.ankor a{
+    border: 1px solid white;
+    background-color:#ffffff ;
+    color: black;
+    position: relative;
+    left: 46px;
+}
+.ankor a:hover{
+    border: 1px solid;
+    background-color: #f0962f;
+}
+.picture ul li{
+    display: inline-block;
+    padding-right: 24px;
+    border: 1px double coral;
+    margin: 20px;
+    padding: 10px;
+    position: relative;
+
+  
+}
+
+.picture ul li img{
+    height: 250px;
+    width: 200px;
+   
+ }
+.picture ul li h3{
+    text-align: center;
+}
+.picture ul li p{
+    text-align: center;
+}
+.picture{
+    position: relative;
+    left: 90px;
+
+  
+}
+.picture h1{
+    position: relative;
+    bottom: 250px;
+    right: 70px;
+    text-align: center;
+    overflow: hidden;
+}
+.other{
+    padding: 50px;
+    background-color: rgba(128, 128, 128, 0.272);
+}
+.other p{
+    padding: 30px;
+}
+.other h1{
+    padding: 30px;
+}
+.other form input:first-child{
+    text-transform: uppercase;
+width: 600PX;
+height: 40PX;
+border: 1px solid #aa972c;
+border-radius: 6px;
+transition: 1S;
+}
+.other form input:first-child:focus{
+    border: 3px solid blue;
+    
+}
+.other form input:last-child {
+    border: 1px solid #aa972c;
+    height: 40px;
+    text-align: center;;
+    border-radius: 5px;
+    width: 200px;
+    background-color: #aa972c;
+    transition: 2S;
+   
+}
+.other form input:last-child:hover{
+    background-color: white;
+}
+.pic img{
+    height: 390px;
+    width: 350px;
+}
+
+.pic h4{
+    margin: 20px
+}
+.pic p{
+  position: relative;
+  left: 20px;
+}
+.choose h1{
+    text-align: center;
+    margin: 20px;
+}
+.user{
+    
+    margin: 30px;
+    position: relative;
+    top: 70px;
+   left: 230px;
+  
+}
+.photo p{
+    width: 260px;
+    padding-bottom: 20px;
+    background-color: aliceblue;
+    padding: 20px;
+ 
+}
+.photo{
+    border: 1px solid darkgrey;
+    margin: 20px;
+    /* padding: 20px; */
+    height: 270px;
+    
+}
+.photo img{
+    height: 70px;
+    width: 70px;
+    border: 3px solid #aa972c;
+
+    
+}
+.photo h4{
+    position: relative;
+    bottom: 50px;
+    left: 80px;
+    overflow: hidden;
+}
+.photo span{
+    position: relative;
+    bottom: 50px;
+    left: 80px;
+    overflow: hidden;
+}
+.user h1{
+    position: relative;
+    right: 200px;
+}
+.common{
+display: inline-block;
+position: relative;
+top: 100px;
+left: 400px;
+
+  
+}
+.common input:first-child{
+    height: 40px;
+    width: 700px;
+    margin: 10px;
+    border: 1px solid #b6a95d;
+    border-radius: 10px;
+}
+.common input:first-child:focus{
+color: blue;
+}
+.common input:nth-child(3){
+    height: 30px;
+    width: 350px;
+    margin: 10px;
+    border: 1px solid #b6a95d;
+    border-radius: 10px;
+}
+.common input:nth-child(3):focus{
+    color: blue;
+}
+.common input:nth-child(4){
+    height: 30px;
+    width: 350px;
+    margin: 10px;
+    border: 1px solid #b6a95d;
+    border-radius: 10px;
+   
+}
+.common input:nth-child(3):focus{
+    color: blue;
+}
+.common input:last-child{
+    height: 30px;
+    width: 100px;
+    margin: 5px;
+    border: 1px solid #b6a95d;
+    position: relative;
+    left: 300px;
+    border-radius: 10px;
+    background-color: #aa972c;
+    text-align: center;
+    color: white;
+}
+.common input:last-child:focus{
+    background-color: white;
+}
+.common textarea{
+    margin: 10px;
+    border: 1px solid #b6a95d;
+    border-radius: 10px;
+}
+.common textarea:focus{
+color: blue;
+}
+.common h1{
+    text-align: center;
+    position: relative;
+    right: 150px;
+}
+.common p{
+    text-align: center;
+    position: relative;
+    right: 150px;
+}
+.footer{
+    position: relative;
+    top: 150px;
+    left: 600px;
+}
